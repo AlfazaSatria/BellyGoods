@@ -11,3 +11,13 @@
 .green-color{
     color : #296F56;
 }
+
+.img-banner{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.button-radius{
+    border-radius: 20px;
+}
