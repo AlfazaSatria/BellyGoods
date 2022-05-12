@@ -15,9 +15,17 @@
 .img-banner{
     width: 100%;
     height: auto;
-    max-width: 100%;
+   
 }
 
 .button-radius{
     border-radius: 20px;
+}
+
+.bg-orange{
+    background-color: #FFF0ED;
+}
+
+.bg-image{
+    background-color: #FAFAFA;
 }
