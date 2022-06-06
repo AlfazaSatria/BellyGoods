@@ -59,3 +59,28 @@
 .btn-meet-au{
     width: 250px;
 }
+
+ .wrap_footer {
+    color: #fff;
+    background-color: rgba(41,111,86,1);
+    padding: 80px 0px 40px 0px;
+}
+
+#copyright {
+    font-size: 10px;
+}
+
+.wrap_footer .center {
+    padding: 20px 20px;
+    line-height: 100%;
+}
+
+.left .bold {
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
+.wrap_footer .left {
+    font-size: 14px;
+    line-height: 16px;
+}
