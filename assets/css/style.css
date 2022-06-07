@@ -1,72 +1,190 @@
-.img-logo{
+.img-logo {
     width: 5em;
 }
 
-.btn-nav{
+.btn-nav {
     background-color: #EBFAF5;
     text-decoration: none;
-    
+
 }
 
-.green-color{
-    color : #296F56;
+.green-color {
+    color: #296F56;
 }
 
-.img-banner{
+.img-banner {
     width: 100%;
     height: auto;
-   
+
 }
 
-.img-black{
-    width:100%;
+.img-black {
+    width: 100%;
     height: 90%;
 }
 
-.button-radius{
+.button-radius {
     border-radius: 20px;
 }
 
-.bg-sustainability{
+.bg-sustainability {
     background-color: #EBFAF5;
 }
 
-.bg-orange{
+.bg-orange {
     background-color: #FFF0ED;
 }
 
 
-.bg-image{
+.bg-image {
     background-color: #FAFAFA;
 }
 
-.custoverlay{
-    position:absolute; 
-    display:flex; 
-    top: 0%; 
-    left: 0; 
-    width: 100%; 
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+/* About Us */
+
+.custoverlay {
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
-.bgoverlay{
-    position:absolute; 
-    display:flex; 
-    top: 0%; 
-    left: 0; 
-    width: 100%; 
-    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1));
+
+.bgoverlay {
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
-.btn-meet-au{
+
+.btn-meet-au {
     width: 250px;
 }
 
- .wrap_footer {
+.bnr-au {
+    height: 550px;
+}
+
+.bg-card-lightgrey {
+    background-color: #F5F5F5;
+}
+
+/* Weeding & Catering */
+
+.main_banner_catering img {
+    min-width: 100%;
+}
+
+.wrap_section1_catering {
+    padding: 0px 60px;
+}
+
+.head1 {
+    margin-top: 80px;
+}
+
+.desc1 {
+    padding: 0px 180px;
+    margin-bottom: 80px;
+}
+
+.wrap_section2_catering {
+    margin-top: 80px;
+}
+
+.wrap_section2_catering .left {
+    background-color: rgba(41, 111, 86, 1);
+    padding: 80px 85px;
+    margin: 0px 0px;
+}
+
+.desc2 {
+    padding-right: 5px;
+}
+
+.wrap_section2_catering .left p,
+.wrap_section2_catering .left h5 {
+    color: white;
+}
+
+.btn-light {
+    width: 180px;
+    border-radius: 30px !important;
+}
+
+.wrap_section2_catering .row>* {
+    padding: 0px;
+}
+
+.right_img img {
+    width: 100%;
+    height: 91%;
+    margin: 0px 0px;
+}
+
+.head3 {
+    margin-bottom: 80px;
+}
+
+.wrap_section3_catering {
+    padding: 0px 85px;
+}
+
+.btn_send {
+    background-color: rgba(190, 190, 190, 1);
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+
+.wrap_section4_catering {
+    position: relative;
+    background-image: url("n_0200629_133639.png");
+    margin-bottom: 0px;
+}
+
+.wrap_section4_catering::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(166, 205, 199, 0.7);
+}
+
+.wrap_section4_catering .center {
+    position: relative;
+    color: black;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.back_banner {
+    padding: 60px 80px;
+}
+
+.btn_bento {
+    width: 220px;
+    border: solid 1px black;
+}
+
+.wrap_section4_catering h5,
+.wrap_section4_catering p,
+.wrap_section4_catering button {
+    z-index: 5;
+}
+
+.wrap_main_catering .wrap_footer {
     color: #fff;
-    background-color: rgba(41,111,86,1);
+    background-color: rgba(41, 111, 86, 1);
     padding: 80px 0px 40px 0px;
 }
 
-#copyright {
+.copyright {
     font-size: 10px;
 }
 
@@ -83,4 +201,72 @@
 .wrap_footer .left {
     font-size: 14px;
     line-height: 16px;
+}
+
+/* ================================================================ */
+/* WEDDING */
+
+.mainbannerwedd {
+    width: 100%;
+}
+
+.caption1 {
+    text-align: center;
+}
+
+.desc_caption1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.wrap_card1 {
+    padding: 0px 70px;
+}
+
+.wrap_card1 .row .col-md-4 div h5 {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.wrap_section2 {
+    background: lightgray;
+    height: 500px;
+}
+
+.caption2 {
+    margin: 65px 0px;
+    text-align: center;
+}
+
+.wrap_form {
+    padding: 0px 150px;
+}
+
+.btn_send {
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px 0px;
+    background: gray;
+    border: none;
+}
+
+.caption3,
+.desc_caption3 {
+    text-align: center;
+}
+
+.caption3 {
+    margin: 50px 0px 30px 0px;
+}
+
+.desc_caption3 {
+    margin: 0px 0px 50px 0px;
+}
+
+
+
+.wrap_footer {
+    color: #fff;
+    background-color: rgba(41, 111, 86, 1);
+    padding: 80px 0px 40px 0px;
 }
